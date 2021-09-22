@@ -2,7 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
 
-# To start both dev server and json-sesrver run **npm run start**
+## To start both dev server and json-server run 
+
+# <code>npm run start</code>
 
 ## Development server
 
