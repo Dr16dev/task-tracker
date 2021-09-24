@@ -6,7 +6,11 @@ This is an atempt to learn Angular by building a small app
 
 # <code>npm run start</code>
 
+-----
 
+### Topics I've gone through in this branch
+- Two way binding
+- Subject and Subscription
 
 <!-- ## Development server
 
