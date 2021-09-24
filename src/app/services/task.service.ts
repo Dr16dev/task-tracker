@@ -3,11 +3,11 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Task } from 'src/app/Task';
 
-// const httpOptions = {
-//   header: new HttpHeaders({
-//     'Content-Type': 'application/json',
-//   }),
-// };
+const httpOptions = {
+  headers: new HttpHeaders({
+    'Content-Type': 'application/json',
+  }),
+};
 
 @Injectable({
   providedIn: 'root',
@@ -27,6 +27,10 @@ export class TaskService {
 
   updateTaskReminder(task: Task): Observable<Task> {
     const url = `${this.apiUrl}/${task.id}`;
-    return this.http.put<Task>(url, task);
+    return this.http.put<Task>(url, task, httpOptions);
+  }
+
+  addTask(task: Task): Observable<Task> {
+    return this.http.post<Task>(this.apiUrl, task, httpOptions);
   }
 }
