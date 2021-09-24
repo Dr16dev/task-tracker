@@ -1,6 +1,6 @@
 # TaskTracker
 
-Description....
+This is an atempt to learn Angular by building a small app
 
 ## To start both dev server and json-server run 
 
