@@ -2,16 +2,16 @@
 
 This is an atempt to learn Angular by building a small app
 
-## To start both dev server and json-server run 
+## To start both dev server and json-server run
 
 # <code>npm run start</code>
 
------
+---
 
-### Topics I've gone through in this branch
-- Two way binding
-- Subject and Subscription
+### In this branch I've covered:
 
+- Routing
+- Added condition on add btn to only show on '/' route
 <!-- ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
